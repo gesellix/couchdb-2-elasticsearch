@@ -9,7 +9,8 @@ continuous sync as well. The little tool is available as [couch2elastic4sync](ht
 and in its minimal usage only needs the source database url and the target index.
 
 If that's enough for your needs, just head over to it. If you want to run it in a Docker container,
-feel free to use this repo, or directly run the image `gesellix/river`.
+feel free to use this repo, or directly run the image `gesellix/river`. A nice addition has been added
+to make the load and sync actions ignore CouchDB design documents. See below for other options.
 
 ## Usage
 
