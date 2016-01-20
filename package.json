@@ -1,5 +1,5 @@
 {
-    "name": "topicpro-river",
+    "name": "couchdb-2-elasticsearch",
     "version": "0.0.1",
     "description": "Sync couchdb data to elasticsearch.",
     "dependencies": {
