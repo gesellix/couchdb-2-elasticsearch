@@ -1,4 +1,4 @@
-# Replace the deprecated Elasticsearch CouchDB River
+# A Elasticsearch CouchDB River replacement
 
 Elasticsearch rivers have been [deprecated](https://www.elastic.co/blog/deprecating-rivers),
 which makes one think about alternatives. The recommended method is using [Logstash input plugins](https://github.com/logstash-plugins/logstash-input-couchdb_changes),
