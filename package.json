@@ -1,13 +1,13 @@
 {
-    "name": "couchdb-2-elasticsearch",
-    "version": "0.0.1",
-    "description": "Sync couchdb data to elasticsearch.",
-    "dependencies": {
-        "couch2elastic4sync": "^1.2.0"
-    },
-    "scripts": {
-        "load": "couch2elastic4sync load",
-        "sync": "couch2elastic4sync",
-        "usage": "echo 'usage (example):\nnpm run load -- --database=http://couchdb:5984/db --elasticsearch=http://elasticsearch:9200/index/type'"
-    }
+  "name": "couchdb-2-elasticsearch",
+  "version": "0.0.1",
+  "description": "Sync couchdb data to elasticsearch.",
+  "dependencies": {
+    "couch2elastic4sync": "^2.0.0"
+  },
+  "scripts": {
+    "load": "couch2elastic4sync load",
+    "sync": "couch2elastic4sync",
+    "usage": "echo 'usage (example):\nnpm run load -- --database=http://couchdb:5984/db --elasticsearch=http://elasticsearch:9200/index/type'"
+  }
 }
