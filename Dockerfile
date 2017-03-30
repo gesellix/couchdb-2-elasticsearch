@@ -10,5 +10,5 @@ RUN npm install
 COPY ./mapper/drop_design_docs.js /river/drop_design_docs.js
 
 ENTRYPOINT ["npm", "run"]
-CMD ["sync", "--", "--mapper=drop_design_docs", "--end_on_catchup=true"]
-#CMD ["load", "--", "--mapper=drop_design_docs"]
+CMD ["sync", "--", "--mapper=drop_design_docs.js", "--end_on_catchup=true"]
+#CMD ["load", "--", "--mapper=drop_design_docs.js"]
